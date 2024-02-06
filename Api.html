@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css">
+  <title>Random User Card</title>
+</head>
+<body>
+  <div id="card">
+    <button onclick="fetchRandomUser('male')">Male</button>
+    <button onclick="fetchRandomUser('female')">Female</button>
+    <div id="user-info">
+      <img id="user-image" src="" alt="User" />
+      <h2 id="user-name"></h2>
+      <p id="user-email"></p>
+    </div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
